@@ -8,7 +8,11 @@
     "craco": "^0.0.3",
     "lerna": "^6.5.1"
   },
-  "scripts" : {
+  "scripts": {
     "start": "lerna exec --scope app -- yarn start"
+  },
+  "dependencies": {
+    "@babel/plugin-syntax-jsx": "^7.18.6",
+    "@babel/preset-react": "^7.18.6"
   }
 }
